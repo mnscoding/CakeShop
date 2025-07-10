@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Cake Menu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Our Menu</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="menu.html">Menu</a>
+    <a href="gallery.html">Gallery</a>
+  </nav>
+
+  <div class="container">
+    <table>
+      <thead>
+        <tr>
+          <th>Cake Name</th>
+          <th>Size</th>
+          <th>Price (LKR)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Chocolate Fudge Cake</td>
+          <td>1kg</td>
+          <td>2200</td>
+        </tr>
+        <tr>
+          <td>Vanilla Sponge Cake</td>
+          <td>1kg</td>
+          <td>1800</td>
+        </tr>
+        <tr>
+          <td>Red Velvet Cake</td>
+          <td>1kg</td>
+          <td>2500</td>
+        </tr>
+        <tr>
+          <td>Black Forest Cake</td>
+          <td>1kg</td>
+          <td>2700</td>
+        </tr>
+        <tr>
+          <td>Cheesecake</td>
+          <td>1kg</td>
+          <td>2300</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <button class="order-button" onclick="orderNow()">Order Now</button>
+  </div>
+
+  <script>
+    function orderNow() {
+      alert("Thank you for your interest! Please contact us to place your order.");
+    }
+  </script>
+</body>
+</html>
